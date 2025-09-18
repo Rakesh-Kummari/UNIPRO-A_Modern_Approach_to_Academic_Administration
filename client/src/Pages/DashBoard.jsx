@@ -41,7 +41,7 @@ const DashBoard = () => {
         </button>
       </div>
       <div className="box_2">
-        <h3>For Student Welfare Division</h3>
+        <h3>For Admin</h3>
         <p>
           Are you currently working with the welfare division of the university.
           Sign up as a member to access a suite of tools designed to enhance

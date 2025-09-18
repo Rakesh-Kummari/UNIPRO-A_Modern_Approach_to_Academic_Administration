@@ -6,7 +6,7 @@ import LectureDetailsModal from "../components/LectureDetailsModal";
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
 import { jwtDecode } from "jwt-decode";
-const UserHome = ({ userRole,userDetails }) => {
+const UserHome = ({ userRole, userDetails }) => {
   const [activeSection, setActiveSection] = useState("courses");
   const [isProfileModalOpen, setProfileModalOpen] = useState(false);
   const [courses, setCourses] = useState([]);
@@ -54,7 +54,7 @@ const UserHome = ({ userRole,userDetails }) => {
       if (Array.isArray(response.data)) {
         setLecturers(response.data);
       } else if (response.data) {
-        setLecturers([response.data]); 
+        setLecturers([response.data]);
       } else {
         console.error("Unexpected response data:", response.data);
       }
@@ -239,8 +239,6 @@ const UserHome = ({ userRole,userDetails }) => {
       6
     )}/${studentnumber.slice(6)}`;
   };
-
-
 
   useEffect(() => {
     if (userDetails.department) {

@@ -162,7 +162,7 @@ const Register = () => {
       <div className="main_container">
         {step === 1 && (
           <form className="form" onSubmit={handleNext}>
-            <h2 className="title">Register For Student Welfare Division</h2>
+            <h2 className="title">Admin</h2>
             <input
               className="input-field"
               type="text"

@@ -111,37 +111,36 @@
 .profile-modal .profile-options button:hover {
   background-color: #0056b3;
 }
-.enroll-btn{
-  height: 30px;
-  border-radius: 5px;
-
-}
-.remove-btn{
+.enroll-btn {
   height: 30px;
   border-radius: 5px;
 }
-.enroll-btn button{
+.remove-btn {
+  height: 30px;
+  border-radius: 5px;
+}
+.enroll-btn button {
   height: 100%;
-  padding:0  1rem;
+  padding: 0 1rem;
   background-color: #007bff;
   border-radius: 5px;
   border: none;
   color: #ddd;
   cursor: pointer;
 }
-.remove-btn button{
+.remove-btn button {
   height: 100%;
-  padding:0  1rem;
+  padding: 0 1rem;
   background-color: #f72525;
   border-radius: 5px;
   border: none;
   color: #ddd;
   cursor: pointer;
 }
-.enroll-btn button:hover{
+.enroll-btn button:hover {
   background-color: #033c79;
 }
-.remove-btn button:hover{
+.remove-btn button:hover {
   background-color: #9e0000;
 }
 @media screen and (max-width: 900px) {
@@ -154,19 +153,19 @@
 }
 @media screen and (max-width: 620px) {
   .sidebar ul li {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-  
-.content_2 {
-  font-size: .8rem;
-}
+
+  .content_2 {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 450px) {
   .sidebar ul li {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-  
-.content_2 {
-  font-size: .7rem;
-}
+
+  .content_2 {
+    font-size: 0.7rem;
+  }
 }
