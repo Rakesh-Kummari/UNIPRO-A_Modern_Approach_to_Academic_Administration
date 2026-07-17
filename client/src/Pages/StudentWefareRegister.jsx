@@ -23,7 +23,7 @@ const Register = () => {
     "incharge of student appeals",
   ];
   const universityOptions = [
-    "University Of Kelaniya",
+    "University Of Triveni",
     "University Of Colombo",
     "University Of Peradeniya",
     "University Of Ruhuna",

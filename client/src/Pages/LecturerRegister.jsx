@@ -19,9 +19,10 @@ const Register = () => {
 
   const facultyOptions = ["Science", "Engineering", "Arts", "Business"];
   const departmentOptions = {
-    Science: ["Biology", "Chemistry", "Physics", "software engineering"],
+    Science: ["Biology", "Chemistry", "Physics"],
     Engineering: [
       "Computer Science",
+      "Software Engineering",
       "Mechanical Engineering",
       "Electrical Engineering",
     ],
@@ -35,7 +36,7 @@ const Register = () => {
     "Lecturer",
   ];
   const universityOptions = [
-    "University Of Kelaniya",
+    "University Of Triveni",
     "University Of Colombo",
     "University Of Peradeniya",
     "University Of Ruhuna",

@@ -24,9 +24,10 @@ const Register = () => {
     "Medical",
   ];
   const departmentOptions = {
-    Science: ["Biology", "Chemistry", "Physics", "software engineering"],
+    Science: ["Biology", "Chemistry", "Physics"],
     Engineering: [
       "Computer Science",
+      "Software Engineering",
       "Mechanical Engineering",
       "Electrical Engineering",
     ],
@@ -45,14 +46,17 @@ const Register = () => {
     e.preventDefault();
 
     if (!validatePhoneNumber(phone)) {
-      toast.error("Invalid phone number. Please enter a valid 10-digit phone number.", {
-        icon: "❌",
-        style: {
-          border: "1px solid #ff4d4f",
-          padding: "16px",
-          color: "#ff4d4f",
-        },
-      });
+      toast.error(
+        "Invalid phone number. Please enter a valid 10-digit phone number.",
+        {
+          icon: "❌",
+          style: {
+            border: "1px solid #ff4d4f",
+            padding: "16px",
+            color: "#ff4d4f",
+          },
+        }
+      );
       return;
     }
 

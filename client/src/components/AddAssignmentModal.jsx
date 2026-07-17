@@ -111,7 +111,7 @@ const AddAssignmentModal = ({
           value={newAssignment.deadline}
           onChange={handleAssignmentInputChange}
         />
-         <select
+        <select
           className="input-field_select"
           name="faculty"
           value={newAssignment.faculty}
